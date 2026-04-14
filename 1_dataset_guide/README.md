@@ -208,7 +208,7 @@ This is one exmaple element of a question answer json file.
   - `object_center`: x and y coordinates of the center of mass of the two structures (the correct answers to the questions were derived from these centers).
   - `question`: The question presented to the model.
   - `answer`: The correct answer (0 = no, 1 = yes).
-- `rotate_flip_short`: Information on how the image is roated and flipped (A: Flip: A1 0°, A2: 90°, A3: 180°, A4 270° || B: Not Flipped: B1 0°, B2: 90°, B3: 180°, B4 270°) [Missing in 146 images with size H=W=768 instead of H=W=512)
+- `rotate_flip_short`: Information on how the image is roated and flipped (A: Flip: A1 0°, A2: 90°, A3: 180°, A4 270° || B: Not Flipped: B1 0°, B2: 90°, B3: 180°, B4 270°) [Missing in 146 images with size H=W=768 instead of H=W=512]
 
 <br/>
 
