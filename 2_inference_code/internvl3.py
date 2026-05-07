@@ -255,11 +255,11 @@ if __name__ == "__main__":
 
         else:
             experiment_plan = {
-                'sub_experiment_1': {'img': 'image_numbers',
+                'sub_experiment_1': {'img': 'images_numbers',
                                      'qa': 'qa_numbers.json'},
-                'sub_experiment_2': {'img': 'image_letters',
+                'sub_experiment_2': {'img': 'images_letters',
                                      'qa': 'qa_letters.json'},
-                'sub_experiment_3': {'img': 'image_dots',
+                'sub_experiment_3': {'img': 'images_dots',
                                      'qa': 'qa_dots.json'}
             }
 
