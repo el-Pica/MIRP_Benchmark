@@ -238,7 +238,7 @@ if __name__ == "__main__":
     # ──────────────────────────────────────────────────────────────────────────────
     #  Paths and Experiment Selection
     # ──────────────────────────────────────────────────────────────────────────────
-    dataset_dir = "1_dataset_guide/MIRP_Dataset"
+    dataset_dir = "MIRP_Dataset"
 
     RESULTS_ROOT = 'results'  # path for results directory
 
