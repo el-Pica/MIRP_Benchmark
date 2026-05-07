@@ -292,7 +292,7 @@ def write_excel(res: Dict[str, Any], out_path: str) -> None:
 def main():
     # Update the paths below to your local setup
     # ── Paths  ─────────────────────────────────────
-    answer_files_dir = "./answers"
+    answer_files_dir = r"C:\Users\xPica\Documents\NII Research\MIRP_Benchmark\results"
     # Needs to contain 3 json files with the model answers for each of the 3 runs. They should end with ..._run_0.json, ..._run_1.json, ..._run_2.json.
     # Each element of all 3 json files should have this structure:
     #  {
@@ -305,7 +305,7 @@ def main():
     #                 "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the left iliopsoas below the left gluteus maximus? A: 1\nNow answer the real question:\n\nQ: Is the left kidney below the inferior vena cava?"
     #             }
     #         ]
-    centres_js = "center_of_anatomical_stuctures_in_standard_radiological_orientation.json"
+    centres_js = r"C:\Users\xPica\Documents\NII Research\MIRP_Benchmark\1_dataset_guide\MIRP_Dataset\center_of_anatomical_stuctures_in_standard_radiological_orientation.json"
     # Download this json file.
     # It contains the coordinates of the anatomical structures of the images in standard radiological view.
     # It is used to determine the anatomical correctness of the answers.
