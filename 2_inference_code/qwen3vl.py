@@ -235,6 +235,13 @@ if __name__ == "__main__":
                 mo_file_name_appendix = f'random_pick_{N}_images'
 
             for i in range(3):
+                results_file_name = f"{selected_qa.replace('.json', '')}_{mo_file_name_appendix}_add_run_{i}.json"
+                save_name = os.path.join(RESULTS_ROOT, results_file_name)
+
+                if os.path.exists(save_name):
+                    print(f"Skipping (already exists): {results_file_name}")
+                    continue
+
                 start_time = time.time()
 
                 dataset_results = []
@@ -250,7 +257,11 @@ if __name__ == "__main__":
                         additional_question = None
 
                     original_image_path = os.path.join(image_files_path, image)
-                    rgb_image = get_clean_image(original_image_path)
+                    try:
+                        rgb_image = get_clean_image(original_image_path)
+                    except FileNotFoundError:
+                        print(f"  WARNING: image not found, skipping: {image}")
+                        continue
 
                     results_call = make_model_call(
                         model, question_data[0], rgb_image,
@@ -260,9 +271,6 @@ if __name__ == "__main__":
                         "file_name": image,
                         "results_call": results_call
                     })
-
-                results_file_name = f"{selected_qa.replace('.json', '')}_{mo_file_name_appendix}_add_run_{i}.json"
-                save_name = os.path.join(RESULTS_ROOT, results_file_name)
 
                 os.makedirs(os.path.dirname(save_name), exist_ok=True)
 
