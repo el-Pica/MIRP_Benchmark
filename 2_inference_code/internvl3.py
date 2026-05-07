@@ -42,10 +42,22 @@ import sys
 import json
 import random
 import time
-import torch
 import torchvision.transforms as T
 from PIL import Image
 from torchvision.transforms.functional import InterpolationMode
+os.environ['CUDA_VISIBLE_DEVICES'] = '0,1,2,3'   # mask Blackwell
+_HF = '/data/alep/huggingface_cache'
+if os.path.isdir(_HF):
+    os.environ['HF_HOME'] = _HF
+    os.environ['TRANSFORMERS_CACHE'] = _HF
+    os.environ['HUGGINGFACE_HUB_CACHE'] = _HF
+assert 'torch' not in sys.modules, 'restart kernel — torch was already loaded'
+import torch
+for i in range(torch.cuda.device_count()):
+    cap = torch.cuda.get_device_capability(i)
+    print(f'  cuda:{i}  {torch.cuda.get_device_name(i)}  sm_{cap[0]}{cap[1]}')
+assert all(torch.cuda.get_device_capability(i) <= (9,0) for i in range(torch.cuda.device_count()))
+
 from transformers import AutoTokenizer, AutoModel
 
 
@@ -206,7 +218,7 @@ if __name__ == "__main__":
     #  Model
     #  HuggingFace ID: OpenGVLab/InternVL3-8B
     # ──────────────────────────────────────────────────────────────────────────────
-    model_id = "models/InternVL3-8B"
+    model_id = "OpenGVLab/InternVL3-8B"
 
     model = AutoModel.from_pretrained(
         model_id,

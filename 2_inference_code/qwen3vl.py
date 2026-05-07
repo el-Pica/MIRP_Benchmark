@@ -42,14 +42,22 @@ import sys
 import json
 import random
 import time
-import torch
 from PIL import Image
+os.environ['CUDA_VISIBLE_DEVICES'] = '0,1,2,3'   # mask Blackwell
+_HF = '/data/alep/huggingface_cache'
+if os.path.isdir(_HF):
+    os.environ['HF_HOME'] = _HF
+    os.environ['TRANSFORMERS_CACHE'] = _HF
+    os.environ['HUGGINGFACE_HUB_CACHE'] = _HF
+assert 'torch' not in sys.modules, 'restart kernel — torch was already loaded'
+import torch
+for i in range(torch.cuda.device_count()):
+    cap = torch.cuda.get_device_capability(i)
+    print(f'  cuda:{i}  {torch.cuda.get_device_name(i)}  sm_{cap[0]}{cap[1]}')
+assert all(torch.cuda.get_device_capability(i) <= (9,0) for i in range(torch.cuda.device_count()))
 
-try:
-    from transformers import Qwen3VLForConditionalGeneration as QwenVLModel
-except ImportError:
-    from transformers import Qwen2_5_VLForConditionalGeneration as QwenVLModel
 
+from transformers import Qwen3VLForConditionalGeneration as QwenVLModel
 from transformers import AutoProcessor
 from qwen_vl_utils import process_vision_info
 
@@ -156,7 +164,7 @@ if __name__ == "__main__":
     #  Model
     #  HuggingFace ID: Qwen/Qwen3-VL-8B-Instruct
     # ──────────────────────────────────────────────────────────────────────────────
-    model_id = "models/Qwen3-VL-8B-Instruct"
+    model_id = "Qwen/Qwen3-VL-8B-Instruct"
 
     model = QwenVLModel.from_pretrained(
         model_id,
