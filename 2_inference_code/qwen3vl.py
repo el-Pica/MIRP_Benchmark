@@ -235,7 +235,7 @@ if __name__ == "__main__":
                 mo_file_name_appendix = f'random_pick_{N}_images'
 
             for i in range(3):
-                results_file_name = f"{selected_qa.replace('.json', '')}_{mo_file_name_appendix}_add_run_{i}.json"
+                results_file_name = f"{exp}_{selected_qa.replace('.json', '')}_{mo_file_name_appendix}_add_run_{i}.json"
                 save_name = os.path.join(RESULTS_ROOT, results_file_name)
 
                 if os.path.exists(save_name):
