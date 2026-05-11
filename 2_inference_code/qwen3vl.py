@@ -162,9 +162,9 @@ if __name__ == "__main__":
 
     # ──────────────────────────────────────────────────────────────────────────────
     #  Model
-    #  HuggingFace ID: Qwen/Qwen3-VL-8B-Instruct
+    #  HuggingFace ID: Qwen/Qwen3-VL-32B-Instruct
     # ──────────────────────────────────────────────────────────────────────────────
-    model_id = "Qwen/Qwen3-VL-8B-Instruct"
+    model_id = "Qwen/Qwen3-VL-32B-Instruct"
 
     model = QwenVLModel.from_pretrained(
         model_id,
