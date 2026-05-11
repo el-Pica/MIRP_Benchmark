@@ -9,7 +9,7 @@ for further analysis.
 
 Prerequisites:
 1. You need a Nvidia GPU with sufficient memory to run the model.
-2. You must download the Qwen3-VL model "Qwen3-VL-8B-Instruct" from HuggingFace and
+2. You must download the Qwen3-VL model "Qwen3-VL-32B-Instruct" from HuggingFace and
    place it in a subdirectory called `models`.
 3. You must download the MIRP Benchmark dataset.
 4. Required Python packages:
