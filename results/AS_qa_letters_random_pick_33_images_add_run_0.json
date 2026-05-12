@@ -1,0 +1,365 @@
+[
+    {
+        "file_name": "image_72.png",
+        "results_call": [
+            {
+                "question": "Are the letters HT to the left of the letters BX?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Are the letters XN to the right of the letters FE? A: 0\nNow answer the real question:\n\nQ: Are the letters HT to the left of the letters BX?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_11.png",
+        "results_call": [
+            {
+                "question": "Are the letters YE to the right of the letters EV?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Are the letters ZU to the right of the letters SV? A: 1\nNow answer the real question:\n\nQ: Are the letters YE to the right of the letters EV?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_83.png",
+        "results_call": [
+            {
+                "question": "Are the letters XN to the right of the letters FE?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Are the letters OI to the left of the letters FS? A: 0\nNow answer the real question:\n\nQ: Are the letters XN to the right of the letters FE?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_62.png",
+        "results_call": [
+            {
+                "question": "Are the letters VR below the letters FC?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Are the letters SS to the right of the letters PH? A: 1\nNow answer the real question:\n\nQ: Are the letters VR below the letters FC?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_23.png",
+        "results_call": [
+            {
+                "question": "Are the letters EN above the letters EB?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Are the letters ZU to the right of the letters SV? A: 1\nNow answer the real question:\n\nQ: Are the letters EN above the letters EB?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_68.png",
+        "results_call": [
+            {
+                "question": "Are the letters DV below the letters LR?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Are the letters IZ to the left of the letters ZO? A: 0\nNow answer the real question:\n\nQ: Are the letters DV below the letters LR?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_1.png",
+        "results_call": [
+            {
+                "question": "Are the letters GH to the left of the letters QT?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Are the letters XN to the right of the letters FE? A: 0\nNow answer the real question:\n\nQ: Are the letters GH to the left of the letters QT?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_48.png",
+        "results_call": [
+            {
+                "question": "Are the letters TP to the right of the letters JB?",
+                "model_answer": "0",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Are the letters ZU to the right of the letters SV? A: 1\nNow answer the real question:\n\nQ: Are the letters TP to the right of the letters JB?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_49.png",
+        "results_call": [
+            {
+                "question": "Are the letters ZU to the right of the letters SV?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Are the letters DP above the letters WO? A: 1\nNow answer the real question:\n\nQ: Are the letters ZU to the right of the letters SV?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_73.png",
+        "results_call": [
+            {
+                "question": "Are the letters DP above the letters WO?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Are the letters DO above the letters LV? A: 0\nNow answer the real question:\n\nQ: Are the letters DP above the letters WO?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_30.png",
+        "results_call": [
+            {
+                "question": "Are the letters YC above the letters ON?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Are the letters DV below the letters LR? A: 1\nNow answer the real question:\n\nQ: Are the letters YC above the letters ON?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_9.png",
+        "results_call": [
+            {
+                "question": "Are the letters FR to the right of the letters YQ?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Are the letters HV below the letters SS? A: 1\nNow answer the real question:\n\nQ: Are the letters FR to the right of the letters YQ?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_92.png",
+        "results_call": [
+            {
+                "question": "Are the letters VW to the right of the letters XV?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Are the letters JC above the letters UC? A: 0\nNow answer the real question:\n\nQ: Are the letters VW to the right of the letters XV?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_52.png",
+        "results_call": [
+            {
+                "question": "Are the letters OI to the left of the letters FS?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Are the letters OO to the left of the letters QQ? A: 0\nNow answer the real question:\n\nQ: Are the letters OI to the left of the letters FS?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_13.png",
+        "results_call": [
+            {
+                "question": "Are the letters SS to the right of the letters PH?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Are the letters FR to the right of the letters YQ? A: 0\nNow answer the real question:\n\nQ: Are the letters SS to the right of the letters PH?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_6.png",
+        "results_call": [
+            {
+                "question": "Are the letters NS above the letters ML?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Are the letters MM to the right of the letters TO? A: 0\nNow answer the real question:\n\nQ: Are the letters NS above the letters ML?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_16.png",
+        "results_call": [
+            {
+                "question": "Are the letters IZ to the left of the letters ZO?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Are the letters OO to the left of the letters QQ? A: 0\nNow answer the real question:\n\nQ: Are the letters IZ to the left of the letters ZO?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_28.png",
+        "results_call": [
+            {
+                "question": "Are the letters TK below the letters VD?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Are the letters HV below the letters SS? A: 1\nNow answer the real question:\n\nQ: Are the letters TK below the letters VD?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_88.png",
+        "results_call": [
+            {
+                "question": "Are the letters JC above the letters UC?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Are the letters OL to the right of the letters JZ? A: 1\nNow answer the real question:\n\nQ: Are the letters JC above the letters UC?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_86.png",
+        "results_call": [
+            {
+                "question": "Are the letters LL above the letters XU?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Are the letters EN above the letters EB? A: 1\nNow answer the real question:\n\nQ: Are the letters LL above the letters XU?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_53.png",
+        "results_call": [
+            {
+                "question": "Are the letters KV below the letters DF?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Are the letters SH below the letters ZN? A: 1\nNow answer the real question:\n\nQ: Are the letters KV below the letters DF?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_7.png",
+        "results_call": [
+            {
+                "question": "Are the letters MM to the right of the letters TO?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Are the letters YE to the right of the letters EV? A: 0\nNow answer the real question:\n\nQ: Are the letters MM to the right of the letters TO?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_4.png",
+        "results_call": [
+            {
+                "question": "Are the letters LG to the right of the letters VI?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Are the letters MM to the right of the letters TO? A: 0\nNow answer the real question:\n\nQ: Are the letters LG to the right of the letters VI?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_71.png",
+        "results_call": [
+            {
+                "question": "Are the letters BE above the letters XN?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Are the letters NS above the letters ML? A: 1\nNow answer the real question:\n\nQ: Are the letters BE above the letters XN?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_66.png",
+        "results_call": [
+            {
+                "question": "Are the letters DO above the letters LV?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Are the letters LG to the right of the letters VI? A: 0\nNow answer the real question:\n\nQ: Are the letters DO above the letters LV?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_89.png",
+        "results_call": [
+            {
+                "question": "Are the letters QE below the letters BO?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Are the letters SS to the right of the letters PH? A: 1\nNow answer the real question:\n\nQ: Are the letters QE below the letters BO?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_25.png",
+        "results_call": [
+            {
+                "question": "Are the letters OL to the right of the letters JZ?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Are the letters LL above the letters XU? A: 1\nNow answer the real question:\n\nQ: Are the letters OL to the right of the letters JZ?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_74.png",
+        "results_call": [
+            {
+                "question": "Are the letters US to the left of the letters RW?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Are the letters YC above the letters ON? A: 1\nNow answer the real question:\n\nQ: Are the letters US to the left of the letters RW?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_78.png",
+        "results_call": [
+            {
+                "question": "Are the letters SH below the letters ZN?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Are the letters TK below the letters VD? A: 1\nNow answer the real question:\n\nQ: Are the letters SH below the letters ZN?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_90.png",
+        "results_call": [
+            {
+                "question": "Are the letters OO to the left of the letters QQ?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Are the letters MM to the right of the letters TO? A: 0\nNow answer the real question:\n\nQ: Are the letters OO to the left of the letters QQ?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_51.png",
+        "results_call": [
+            {
+                "question": "Are the letters HV below the letters SS?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Are the letters JC above the letters UC? A: 0\nNow answer the real question:\n\nQ: Are the letters HV below the letters SS?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_59.png",
+        "results_call": [
+            {
+                "question": "Are the letters WZ below the letters MM?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Are the letters BE above the letters XN? A: 0\nNow answer the real question:\n\nQ: Are the letters WZ below the letters MM?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_46.png",
+        "results_call": [
+            {
+                "question": "Are the letters PD below the letters CM?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Are the letters EN above the letters EB? A: 1\nNow answer the real question:\n\nQ: Are the letters PD below the letters CM?"
+            }
+        ]
+    }
+]

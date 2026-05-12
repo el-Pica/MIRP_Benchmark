@@ -1,0 +1,365 @@
+[
+    {
+        "file_name": "image_72.png",
+        "results_call": [
+            {
+                "question": "Is the number 58 to the left of the number 65?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the number 34 above the number 69? A: 0\nNow answer the real question:\n\nQ: Is the number 58 to the left of the number 65?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_11.png",
+        "results_call": [
+            {
+                "question": "Is the number 98 to the right of the number 69?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the number 61 above the number 79? A: 1\nNow answer the real question:\n\nQ: Is the number 98 to the right of the number 69?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_83.png",
+        "results_call": [
+            {
+                "question": "Is the number 1 to the right of the number 64?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the number 29 to the right of the number 26? A: 1\nNow answer the real question:\n\nQ: Is the number 1 to the right of the number 64?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_62.png",
+        "results_call": [
+            {
+                "question": "Is the number 116 below the number 37?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the number 96 above the number 75? A: 1\nNow answer the real question:\n\nQ: Is the number 116 below the number 37?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_23.png",
+        "results_call": [
+            {
+                "question": "Is the number 75 above the number 71?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the number 32 to the left of the number 91? A: 0\nNow answer the real question:\n\nQ: Is the number 75 above the number 71?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_68.png",
+        "results_call": [
+            {
+                "question": "Is the number 110 below the number 47?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the number 105 to the right of the number 17? A: 0\nNow answer the real question:\n\nQ: Is the number 110 below the number 47?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_1.png",
+        "results_call": [
+            {
+                "question": "Is the number 4 to the left of the number 12?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the number 75 above the number 71? A: 1\nNow answer the real question:\n\nQ: Is the number 4 to the left of the number 12?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_48.png",
+        "results_call": [
+            {
+                "question": "Is the number 58 to the right of the number 89?",
+                "model_answer": "0",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the number 61 above the number 79? A: 1\nNow answer the real question:\n\nQ: Is the number 58 to the right of the number 89?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_49.png",
+        "results_call": [
+            {
+                "question": "Is the number 34 to the right of the number 101?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the number 1 to the left of the number 50? A: 0\nNow answer the real question:\n\nQ: Is the number 34 to the right of the number 101?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_73.png",
+        "results_call": [
+            {
+                "question": "Is the number 55 above the number 88?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the number 36 to the left of the number 80? A: 0\nNow answer the real question:\n\nQ: Is the number 55 above the number 88?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_30.png",
+        "results_call": [
+            {
+                "question": "Is the number 61 above the number 79?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the number 77 to the right of the number 9? A: 0\nNow answer the real question:\n\nQ: Is the number 61 above the number 79?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_9.png",
+        "results_call": [
+            {
+                "question": "Is the number 48 to the right of the number 98?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the number 96 above the number 75? A: 1\nNow answer the real question:\n\nQ: Is the number 48 to the right of the number 98?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_92.png",
+        "results_call": [
+            {
+                "question": "Is the number 105 to the right of the number 17?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the number 58 to the left of the number 65? A: 0\nNow answer the real question:\n\nQ: Is the number 105 to the right of the number 17?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_52.png",
+        "results_call": [
+            {
+                "question": "Is the number 67 to the left of the number 84?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the number 23 above the number 34? A: 0\nNow answer the real question:\n\nQ: Is the number 67 to the left of the number 84?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_13.png",
+        "results_call": [
+            {
+                "question": "Is the number 93 to the right of the number 113?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the number 23 above the number 34? A: 0\nNow answer the real question:\n\nQ: Is the number 93 to the right of the number 113?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_6.png",
+        "results_call": [
+            {
+                "question": "Is the number 96 above the number 75?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the number 34 above the number 69? A: 0\nNow answer the real question:\n\nQ: Is the number 96 above the number 75?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_16.png",
+        "results_call": [
+            {
+                "question": "Is the number 1 to the left of the number 50?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the number 96 below the number 61? A: 1\nNow answer the real question:\n\nQ: Is the number 1 to the left of the number 50?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_28.png",
+        "results_call": [
+            {
+                "question": "Is the number 86 below the number 43?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the number 77 to the right of the number 9? A: 0\nNow answer the real question:\n\nQ: Is the number 86 below the number 43?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_88.png",
+        "results_call": [
+            {
+                "question": "Is the number 48 above the number 107?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the number 1 to the left of the number 50? A: 0\nNow answer the real question:\n\nQ: Is the number 48 above the number 107?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_86.png",
+        "results_call": [
+            {
+                "question": "Is the number 116 above the number 100?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the number 75 above the number 71? A: 1\nNow answer the real question:\n\nQ: Is the number 116 above the number 100?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_53.png",
+        "results_call": [
+            {
+                "question": "Is the number 53 below the number 43?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the number 55 above the number 88? A: 1\nNow answer the real question:\n\nQ: Is the number 53 below the number 43?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_7.png",
+        "results_call": [
+            {
+                "question": "Is the number 77 to the right of the number 9?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the number 116 above the number 100? A: 1\nNow answer the real question:\n\nQ: Is the number 77 to the right of the number 9?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_4.png",
+        "results_call": [
+            {
+                "question": "Is the number 21 to the right of the number 48?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the number 4 below the number 12? A: 1\nNow answer the real question:\n\nQ: Is the number 21 to the right of the number 48?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_71.png",
+        "results_call": [
+            {
+                "question": "Is the number 23 above the number 34?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the number 98 below the number 36? A: 1\nNow answer the real question:\n\nQ: Is the number 23 above the number 34?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_66.png",
+        "results_call": [
+            {
+                "question": "Is the number 34 above the number 69?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the number 36 to the left of the number 80? A: 0\nNow answer the real question:\n\nQ: Is the number 34 above the number 69?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_89.png",
+        "results_call": [
+            {
+                "question": "Is the number 78 below the number 61?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the number 77 to the right of the number 9? A: 0\nNow answer the real question:\n\nQ: Is the number 78 below the number 61?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_25.png",
+        "results_call": [
+            {
+                "question": "Is the number 29 to the right of the number 26?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the number 77 to the right of the number 9? A: 0\nNow answer the real question:\n\nQ: Is the number 29 to the right of the number 26?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_74.png",
+        "results_call": [
+            {
+                "question": "Is the number 36 to the left of the number 80?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the number 58 to the right of the number 89? A: 1\nNow answer the real question:\n\nQ: Is the number 36 to the left of the number 80?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_78.png",
+        "results_call": [
+            {
+                "question": "Is the number 98 below the number 36?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the number 96 above the number 75? A: 1\nNow answer the real question:\n\nQ: Is the number 98 below the number 36?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_90.png",
+        "results_call": [
+            {
+                "question": "Is the number 32 to the left of the number 91?",
+                "model_answer": "0",
+                "expected_answer": 0,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the number 55 above the number 88? A: 1\nNow answer the real question:\n\nQ: Is the number 32 to the left of the number 91?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_51.png",
+        "results_call": [
+            {
+                "question": "Is the number 4 below the number 12?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the number 1 to the left of the number 50? A: 0\nNow answer the real question:\n\nQ: Is the number 4 below the number 12?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_59.png",
+        "results_call": [
+            {
+                "question": "Is the number 96 below the number 61?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the number 58 to the right of the number 89? A: 1\nNow answer the real question:\n\nQ: Is the number 96 below the number 61?"
+            }
+        ]
+    },
+    {
+        "file_name": "image_46.png",
+        "results_call": [
+            {
+                "question": "Is the number 33 below the number 111?",
+                "model_answer": "1",
+                "expected_answer": 1,
+                "entire_prompt": "The image is a 2D axial slice of an abdominal CT scan with soft tissue windowing. Answer strictly with '1' for Yes or '0' for No. No explanations, no additional text. Your output must contain exactly one character: '1' or '0'.Ignore anatomical correctness; focus solely on what the image shows.\nExample:\nQ: Is the number 77 to the right of the number 9? A: 0\nNow answer the real question:\n\nQ: Is the number 33 below the number 111?"
+            }
+        ]
+    }
+]
